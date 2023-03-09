@@ -10,12 +10,11 @@
     "format-check": "prettier --check \"{,!(node_modules)/**/}*.{js,ts}\"",
     "dist": "tsc",
     "test": "mocha -r ts-node/register ./test/**/*",
-    "install": "tsc",
     "prepublishOnly": "npm run dist & npm test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/actumn/celery.node.git"
+    "url": "git+https://github.com/skalinchuk/celery.node.git"
   },
   "keywords": [
     "node-celery",
